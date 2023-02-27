@@ -21,7 +21,7 @@ class LoginPage extends StatelessWidget {
       backgroundColor: Colors.grey[300],
       
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
         image: DecorationImage(
             image: AssetImage("assets/images/Mask_groupa.png"),
             //colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.4), BlendMode.modulate),
@@ -41,7 +41,7 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 100),
 
               //Welcome back,
-              Text(
+              const Text(
                 'Tekrar hoşgeldin, özlendin reis!',
                 style: TextStyle(
                   color: Colors.black,fontWeight:FontWeight.bold,
