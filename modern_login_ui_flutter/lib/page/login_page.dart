@@ -21,11 +21,11 @@ class LoginPage extends StatelessWidget {
       backgroundColor: Colors.grey[300],
       
       body: Container(
-        decoration: const BoxDecoration(
-        image: DecorationImage(
-            image: AssetImage("assets/images/Mask_groupa.png"),
+       // decoration: const BoxDecoration(
+       // image: DecorationImage(
+           // image: AssetImage("assets/images/Mask_groupa.png"),
             //colorFilter: ColorFilter.mode(Colors.white.withOpacity(0.4), BlendMode.modulate),
-            fit: BoxFit.cover),),
+            //fit: BoxFit.cover),),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -33,10 +33,10 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 50),
 
               //Logo
-             // const Icon(
-               // Icons.lock,
-                //size: 100,
-             // ),
+              const Icon(
+                Icons.lock,
+                size: 100,
+              ),
 
               const SizedBox(height: 100),
 
