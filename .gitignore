@@ -1,0 +1,5 @@
+modern_login_ui_flutter/ios/firebase_app_id_file.json
+modern_login_ui_flutter/android/app/google-services.json
+modern_login_ui_flutter/macos/firebase_app_id_file.json
+modern_login_ui_flutter/lib/firebase_options.dart
+modern_login_ui_flutter/ios/Runner/GoogleService-Info.plist
